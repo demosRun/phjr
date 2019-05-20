@@ -91,8 +91,8 @@
  .p1_con {
     background:url(images/bg01.jpg) top center no-repeat; background-size:100%;
     background-color: #0e0f49;
-    background-position-y: -70px;
-    height:20.106666666666666rem;
+    background-position-y: -11%;
+    height: 100%;
 }
  .search{
      width:7.866666666666666rem;
@@ -129,10 +129,13 @@
  .p1_title li.this{filter:Alpha(Opacity=100); opacity: 1;-moz-opacity:1; }
  .p1_tpbox {
     width: 95%;
-    border-radius:0.06666666666666667rem;
-    height: 450px;
-    overflow-y:auto;
-    overflow-x:hidden;
+    height: calc(100% - 390px);
+    overflow: hidden;
+}
+.p1_tpbox .list {
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
  .p1_tpbox .list li {
      font-size: 0.24rem;
