@@ -35,27 +35,91 @@
 <!-- 调用样式表 -->
 <link rel="stylesheet"  href="page.css" type="text/css" media="all"  charset="utf-8" />
 </head>
-
+<style>
+.title {
+  text-align: center;
+  margin: 15px 0;
+}
+.title span {
+  margin: 0;
+  padding: 0;
+  display: inline;
+  font-size: 26px;
+  color: #b91e0f;
+  box-shadow: inset 0px -19px #fee0d6;
+}
+.p2_box .info-bar {
+  color: #454545;
+  font-size: 16px;
+  font-family: "SimHei";
+}
+.p2_box .info-bar span {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 88px;
+  height: 30px;
+  color: white;
+  border-radius: 15px;
+  line-height: 30px;
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 16px;
+  background: linear-gradient(to bottom right, #fb755a , #fa4b4f);
+}
+.p2_box .text-box {
+  color: #454545;
+  font-size: 16px;
+  text-indent: 32px;
+  margin-bottom: 40px;
+}
+.bar {
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+}
+.bar .return-button {
+  display: inline-block;
+  width: 132px;
+  height: 26px;
+  margin: 7px 0;
+  background-size: 132px;
+  background-repeat: no-repeat;
+  background-image: url('images/return-button.png');
+}
+.explain-bar a {
+  color: #201d78;
+  font-size: 18px;
+  line-height: 40px;
+  text-decoration: underline;
+}
+</style>
 <body>
 <div class="p2_con clearfix w750">
   <div class="clearfix top01"></div>
   
-  
+  <div class="search-bar-box">
+    <form>
+        <input type="text"/>
+        <input class="button" type="button"></input>
+    </form>
+ </div>
   <div class="p2_box clearfix">
-    <h1 class="white">编号：A0201</h1>
-    <h2>案例：网上小额贷款<br />单位：中国工商银行总行网络融资中心</h2>
+    <h1 class="title"><span>编号A0201</span></h1>
+    <h2 class="info-bar"><span>名称</span>网上小额贷款</h2>
+    <h2 class="info-bar"><span>单位</span>中国工商银行总行网络融资中心</h2>
+    <h2 class="info-bar"><span>简介</span></h2>
     
-    <p class="white list_c"><b>案例概况：</b>针对传统模式下小微企业“融资难、融资贵”的特点，工商银行运用大数据及互联网技术，研发网上小额贷款这一线上融资产品。该产品根据不同业务场景，基于客户的交易、资产、信用等多维度数据，构建客户筛选、授信额度测算及风险监测模型，为符合风控要求客户在线发放信用贷款。业务推广后，有力助力普惠金融发展，获得传统模式下小微企业“融资难、融资贵”的特点，工商银行运用大数据及互联网技术，研发网上小额贷款这一线上融资产品。该产品根据不同业务场景，基于客户的交易、资产、信用等多维度数据，构建客户筛选、授信额度测算及风险监测模型，为符合风控要求客户在线发放信用贷款。业务推广后，有力助力普惠金融发展，获得传统模式下小微企业“融资难、融资贵”的特点，工商银行运用大数据及互联网技术，研发网上小额贷款这一线上融资产品。该产品根据不同业务场景，基于客户的交易、资产、信用等多维度数据，构建客户筛选、授信额度测算及风险监测模型，为符合风控要求客户在线发放信用贷款。业务推广后，有力助力普惠金融发展，获得传统模式下小微企业“融资难、融资贵”的特点，工商银行运用大数据及互联网技术，研发网上小额贷款这一线上融资产品。该产品根据不同业务场景，基于客户的交易、资产、信用等多维度数据，构建客户筛选、授信额度测算及风险监测模型，为符合风控要求客户在线发放信用贷款。业务推广后，有力助力普惠金融发展，获得了行内外一致肯定。</p><i class="load_more1 white">（查看详情）</i>
-    
-    <span class="white">扫描二维码，为他投一票！<img src="images/t01.jpg" width="292" height="292" /></span>
-    
-    <p class="white"><b>投票只需两步：</b>
-    1、扫描二维码进入人民网微信，点击菜单栏“互动”——“普惠金融投票”投票，进入投票页面<br />2、输入项目编码或标题找到你要投票的项目，点击投票即可。<br />
-*投票截止时间：2018年6月28日<br />*投票活动只在微信中进行，每个微信号单个项目限投一票
-    </p>
+    <p class="text-box">中国工商银行总行网络融资中心中国工商银行总行网络融资中心中国工商银行总行网络融资中心中国工商银行总行网络融资中心中国工商银行总行网络融资中心中国工商银行总行网络融资中心中国工商银行总行网络融资中心中国工商银行总行网络融资中心中国工商银行总行。</p>
+    <!-- 返回投票页 -->
+    <div class="bar">
+      <a class="return-button" href="#"></a>
+    </div>
+    <!-- 活动说明 -->
+    <div class="bar explain-bar">
+      <a href="#">活动说明</a>
+    </div>
   </div>
-
-
 </div>
 
 
@@ -65,7 +129,7 @@
 
 
 
-<script src="/css/2010tianrun/webdig_test.js" language="javascript" type="text/javascript" async></script>
-{TAG_252382_TAG}
+<!-- <script src="/css/2010tianrun/webdig_test.js" language="javascript" type="text/javascript" async></script>
+{TAG_252382_TAG} -->
 </body>
 </html>

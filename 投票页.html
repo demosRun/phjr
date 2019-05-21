@@ -57,46 +57,7 @@ $(document).ready(function(){
    body, html {
       height: 100%;
    }
-   button {
-      background-image: url('images/search.png');
-   }
-   .search-bar-box {
-      width: 80%;
-      background-color: #bc2536;
-      border-radius: 5px;
-      height: 40px;
-      padding: 10px;
-      margin: 10px auto;
-   }
-   .search-bar-box input {
-      height: 40px;
-      background-color: transparent;
-      border: none;
-   }
-   .search-bar {
-      background-color: white;
-      border-radius: 10px;
-      position: relative;
-   }
-   .search-bar input {
-      width: calc(100% - 50px);
-      padding: 0 10px;
-      font-size: 18px;
-   }
-   .search-bar button {
-      display: block;
-      position: absolute;
-      right: 0;
-      width: 40px;
-      height: 40px;
-      background-repeat: no-repeat;
-      border: none;
-      top: 0;
-      cursor: pointer;
-      background-size: 20px;
-      background-position: center;
-      background-color: transparent;
-   }
+
    .p1_title ul li {
       color: #ffc9a2;
       width: 23%;
@@ -192,10 +153,10 @@ $(document).ready(function(){
   </div>
   
   <div class="search-bar-box">
-     <div class="search-bar">
+     <form>
          <input type="text"/>
-         <button></button>
-     </div>
+         <input class="button" type="button"></input>
+     </form>
   </div>
   
   <div class="title-2">搜索典型案例</div>
@@ -220,7 +181,7 @@ $(document).ready(function(){
      </ul>
   </div>
   <!--弹出-->
-  <div class="box01"><img src="images/box01.jpg" width="573" height="347" /></div>
+  <div class="box01"><img src="images/box01.png" width="558" height="345" /></div>
   <!--弹出 end-->
   <div class="p1_tpbox">
      
