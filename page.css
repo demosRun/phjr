@@ -143,6 +143,11 @@ html, body {
  .p1_tpbox .list li {
      font-size: 0.24rem;
      line-height: 28px;
+     width: calc(100% - 80px);
+     height: 28px;
+     overflow: hidden;
+     text-overflow: ellipsis;
+     white-space: nowrap;
 }
  .p1_tpbox .list li.t01 a{
      color:#fff;
