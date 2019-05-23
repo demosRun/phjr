@@ -36,13 +36,23 @@ $(document).ready(function() {
 <script  type="text/javascript"  src="popup_layer.js"></script>
 <script  type="text/javascript">
 $(document).ready(function(){
+   // 投票成功弹出
 	$(".list ul li.t03").each(function(index, element) {
-        $(this).click(function(){
+      // 投票成功弹出
+      $(this).click(function(){
 			$(".box01").fadeIn(500);
 		})
+      // 投票失败弹出
+      // $(this).click(function(){
+		// 	$(".box02").fadeIn(500);
+		// })
     });
 	$(".box01 img").click(function(){
-			$(".box01").fadeOut(500);
+      $(".box01").fadeOut(500);
+	})
+
+	$(".box02 img").click(function(){
+			$(".box02").fadeOut(500);
 	})
 	
 });
@@ -181,8 +191,9 @@ $(document).ready(function(){
          </li>
      </ul>
   </div>
-  <!--弹出-->
+  <!--投票成功弹出-->
   <div class="box01"><img src="images/box01.png" width="558" height="345" /></div>
+  <div class="box02"><img src="images/box02.png" width="750" height="703" /></div>
   <!--弹出 end-->
   <div class="p1_tpbox">
      

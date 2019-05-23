@@ -269,7 +269,7 @@ html, body {
  
  .list_c{ height:3rem; overflow:hidden;}
 .load_more1{ text-align:left; padding-top:2%; font-size:0.32rem;display:block;}
- .box01{
+ .box01, .box02{
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.8);
@@ -280,7 +280,7 @@ html, body {
     left: 0;
     z-index: 999;
 }
-.box01 img {
+.box01 img, .box02 img {
     height: 172px;
     width: 279px;
     position: absolute;
@@ -290,6 +290,7 @@ html, body {
     bottom: 0;
     margin: auto;
 }
+
 
 /* 搜索条 */
 .search-bar-box {
